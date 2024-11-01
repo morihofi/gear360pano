@@ -76,7 +76,7 @@ compile it and install. After unpacking read ```build.txt```... or do this:
     # g++ -msse2 -O3 multiblend.cpp -o multiblend -ltiff -ltiffxx -ljpeg -lpng
     # If that also fails, this this. This helped my compiling it on my machine (G++12)
     g++ -msse3 -msse4.1 -O3 multiblend.cpp -o multiblend -ltiff -ltiffxx -ljpeg -lpng
-    sudo cp multiblend /usr/local/bin
+    # sudo cp multiblend /usr/local/bin
 
 Package exists for [Arch Linux](https://aur.archlinux.org/packages/multiblend/).
 
